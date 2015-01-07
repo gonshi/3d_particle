@@ -140,6 +140,7 @@ $ ->
     INIT
   ###
   $( "#canvas" ).on "mousedown", ->
+    $( ".intro" ).hide()
     is_makeBox = true
   $( "#canvas" ).on "mouseup", ->
     is_makeBox = false

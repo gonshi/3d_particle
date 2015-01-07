@@ -8,9 +8,9 @@ class Box
     @affineIn = []
     @affineOut = []
     @speed =
-      x: parseInt( Math.random() * 6 + 2 )
-      y: parseInt( Math.random() * 6 + 2 )
-      z: parseInt( Math.random() * 6 + 2 )
+      x: Math.random() * 8 + -4
+      y: Math.random() * 8 + -4
+      z: Math.random() * 8 + -4
     @VER_LENGTH = vertexData.length
     _size =
       x: Math.random() * 5 + 5
